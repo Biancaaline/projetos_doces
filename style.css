@@ -5,26 +5,44 @@
    
 }
 
-a:hover{
+header > nav >a:hover{
     background-color: #fddde6;
-    width: 300px;
+    color: black;
+    transition: backgroud-color 0.5s;
 }
 
-a{
+header > nav > a{
     text-decoration: none;
     color: #ffffff;
-    font-size: 25px ;
+    font-size: 25px;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 8px;
+    text-align: center;
 }
 
+.logo{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    color: #fff5ec;
+    font-size: 2em;
+}
 header img{
-    width: 100px;
-    margin-bottom: 10px;
+ align-items: center;
 }
 
 header{
  background-color: #8b5e3c;
  flex-direction: column;
- padding: 15px;
+ padding: 20px;
+ margin: 5px;
+
+ display: flex;
+ justify-content: space-between;
 }
 
 header > h1{
@@ -32,9 +50,6 @@ header > h1{
     font-size: 70px;
 }
 
-nav{
-    
-}
 body{
     background-color: #fddde6;
     height: 100vh;
@@ -77,11 +92,26 @@ section.box img{
 
 
 section.redes{
-    
-    height: 300px;
-    width: 1100px;
+    background-color: #fff5ec ;
+    height: 100px;
+    width: 300px;
     margin: auto;
     padding: 30px;
+    cursor: pointer;
+}
+
+.redes > sociais >a{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+}
+
+.sociais{
+    display: flex;
+    justify-content: center;
+    width: 650px;
+    margin: auto;
+    gap: 20px;
 }
 
 section.whats{
